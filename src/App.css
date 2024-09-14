@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+
+.Login {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.Login form {
+  display: inline-block;
+  text-align: left;
+}
+
+.Login div {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* App.css or Login.css */
+.Login {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Login h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.Login form div {
+  margin-bottom: 15px;
+}
+
+.Login label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: #555;
+}
+
+.Login input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.Login button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.Login button:hover {
+  background-color: #218838;
+}
+
+.Login input:focus {
+  border-color: #80bdff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+}
